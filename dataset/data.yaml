@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Ambulance', 'Fire_brigade']
+
+roboflow:
+  workspace: amj-ihesm
+  project: emergency-vehicle-detection-ve1bg-mvth7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amj-ihesm/emergency-vehicle-detection-ve1bg-mvth7/dataset/1
